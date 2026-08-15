@@ -56,8 +56,6 @@ Currently, I am focused on:
 
 ---
 
-## 📂 Projects
-
 ## 📂 Featured Projects
 
 ### 🤖 [AI Receptionist with Retell AI, MCP & n8n](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)
