@@ -58,18 +58,37 @@ Currently, I am focused on:
 
 ## 📂 Projects
 
-I am currently organizing and publishing my AI automation projects here on GitHub.
+## 📂 Featured Projects
 
-Each project repository will include:
+### 🤖 [AI Receptionist with Retell AI, MCP & n8n](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)
 
-* Project overview and problem statement
-* Workflow explanation
-* Tools and technologies used
-* Screenshots and workflow architecture
-* Setup and implementation details
-* Key learnings and improvements
+An AI voice receptionist prototype developed as a hands-on automation project using **Retell AI, MCP, and n8n**.
 
-**Projects will be added progressively as they are documented.**
+The system connects a voice agent with multiple automation tools to handle course-related queries and business workflows.
+
+**Key Capabilities:**
+- Course search and class schedule checking
+- Lead capture
+- Consultation booking with Google Calendar
+- Email confirmation
+- FAQ knowledge-base support
+- Human escalation request handling
+- Conversation logging
+
+**Tech Stack:**  
+`Retell AI` • `MCP` • `n8n` • `Google Sheets` • `Google Calendar` • `Gmail` • `REST APIs` • `Webhooks`
+
+**Project Highlights:**
+- 9 documented n8n workflows
+- Multiple MCP-connected automation tools
+- Voice AI + workflow automation integration
+- Architecture diagram and workflow screenshots
+- Sanitized public workflow files
+- Documented limitations and future improvements
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)**
+
+> This is a learning and portfolio project developed as part of an AI Automation assignment and is not an official Ostad Academy production system.
 
 ---
 
