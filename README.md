@@ -90,6 +90,40 @@ The system connects a voice agent with multiple automation tools to handle cours
 
 ---
 
+### 📰 [AI News Research Automation with n8n](https://github.com/jamilur0101/ai-news-research-automation-n8n)
+
+An AI-powered news research automation developed as a hands-on project using **n8n, GNews API, OpenRouter, and Google Sheets**.
+
+The workflow accepts a topic and article count through a webhook, researches and analyzes current news articles with an LLM, stores structured results, and returns the Top 3 stories ranked for LinkedIn relevance.
+
+**Key Capabilities:**
+- Topic-based news collection through GNews API
+- Per-article AI summarization and research
+- Practical key takeaway extraction
+- AI news category classification
+- LinkedIn Worthiness Score from 1–10
+- Structured AI output validation
+- Google Sheets research storage
+- Top 3 article ranking by score and recency
+- JSON API response through webhook
+
+**Tech Stack:**  
+`n8n` • `GNews API` • `OpenRouter` • `Google Sheets` • `Webhooks` • `JavaScript` • `Bruno`
+
+**Project Highlights:**
+- End-to-end webhook-driven research workflow
+- Configurable LLM through OpenRouter
+- Structured Output Parser for consistent AI responses
+- Custom JavaScript ranking logic
+- Architecture diagram and workflow screenshots
+- Sanitized public n8n workflow
+- External workflow execution demo
+- Documented setup, limitations, and future improvements
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/ai-news-research-automation-n8n)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
