@@ -124,6 +124,43 @@ The workflow accepts a topic and article count through a webhook, researches and
 
 ---
 
+### 🎓 [Automated Student Assignment Collection System in Make.com](https://github.com/jamilur0101/automated-student-assignment-collection-make)
+
+An end-to-end assignment collection and validation automation built with **Make.com, Google Forms, Google Sheets, Google Drive, Google Docs, and Gmail**.
+
+The system processes student assignment submissions, cleans and validates submission data, detects duplicates, routes valid and invalid submissions, organizes records and folders, sends automated notifications, and updates final submission status in Google Sheets.
+
+**Key Capabilities:**
+- Google Forms-based assignment submission intake
+- Google Sheets-triggered Make.com automation
+- Data cleaning and normalization
+- Duplicate submission detection
+- Valid, invalid, and duplicate submission routing
+- Student-wise Google Drive folder creation
+- Automatic Google Docs submission summary generation
+- Student confirmation emails
+- Instructor notification emails
+- Submission status tracking in Google Sheets
+- On-time / late status tracking from submission data
+
+**Tech Stack:**  
+`Make.com` • `Google Forms` • `Google Sheets` • `Google Drive` • `Google Docs` • `Gmail`
+
+**Project Highlights:**
+- End-to-end automated assignment processing workflow
+- Three-route validation and submission handling
+- Automated folder and document creation
+- Student and instructor email notifications
+- Centralized submission tracking in Google Sheets
+- Architecture diagram and implementation documentation
+- Sanitized public Make.com blueprint
+- External workflow execution demo
+- Documented test results and current implementation limitations
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/automated-student-assignment-collection-make)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
