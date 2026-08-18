@@ -161,6 +161,46 @@ The system processes student assignment submissions, cleans and validates submis
 
 ---
 
+### 🏢 [Dubai Real Estate Lead Generation & MCP AI Assistant](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)
+
+An end-to-end AI-powered real estate automation system built with **n8n, Apify, Airtable, OpenAI, and MCP**.
+
+The system automatically collects Dubai rental property listings from PropertyFinder through Apify, cleans and structures the scraped data with AI, stores the listings in Airtable, exposes the database through an MCP Server, and allows an AI assistant to answer natural-language questions about available properties.
+
+**Key Capabilities:**
+- Scheduled Dubai real estate listing collection
+- PropertyFinder scraping through Apify
+- AI-powered property data cleaning and structuring
+- Structured Output Parser validation
+- Airtable listing storage and upsert by Listing URL
+- MCP Server with 7 specialized property tools
+- Budget-based property search
+- Location-based listing search
+- Latest listing retrieval
+- Cheapest property lookup
+- Listing count queries
+- Full property list retrieval
+- Natural-language property queries through an AI Assistant
+
+**Tech Stack:**  
+`n8n` • `Apify` • `Airtable` • `OpenAI` • `MCP` • `HTTP Request`
+
+**Project Highlights:**
+- Three connected n8n workflows
+- Automated scraping and structured property storage
+- Seven Airtable-backed MCP tools
+- AI Assistant connected through MCP Client
+- Natural-language budget and location filtering
+- Real chat-query examples with actual listing results
+- Architecture diagram and workflow screenshots
+- Sanitized public n8n workflow exports
+- External demo video and Airtable database
+- Documented setup, implementation notes, limitations, and cost estimation
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
