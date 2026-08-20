@@ -201,6 +201,45 @@ The system automatically collects Dubai rental property listings from PropertyFi
 
 ---
 
+### 📧 [RAG-Based Email Customer Support Agent](https://github.com/jamilur0101/rag-based-email-customer-support-agent)
+
+An AI-powered email customer support automation built with **n8n, Gmail, Supabase Vector Store, Google Drive, and RAG**.
+
+The system builds a searchable product knowledge base from a PDF, retrieves relevant information through a Supabase Vector Store, drafts context-aware customer support replies with an AI Agent, sends the generated reply for human approval, and delivers the final response to the customer only after approval.
+
+**Key Capabilities:**
+- Product knowledge-base ingestion from Google Drive
+- Document loading and recursive text chunking
+- Embedding generation for RAG
+- Supabase Vector Store knowledge storage
+- Gmail-based incoming customer email detection
+- Full email message retrieval
+- AI Agent response generation using retrieved knowledge
+- Human-in-the-loop approval email
+- Workflow pause and resume using Wait
+- Approval validation through an If node
+- Final customer email delivery after approval
+- False branch intentionally left without a rejection-email action
+
+**Tech Stack:**  
+`n8n` • `Gmail` • `Google Drive` • `Supabase Vector Store` • `RAG` • `AI Agent` • `Embeddings`
+
+**Project Highlights:**
+- Two-part RAG + customer support automation architecture
+- PDF-based product knowledge ingestion
+- Vector search through Supabase
+- Retrieval-grounded AI email drafting
+- Human approval before customer delivery
+- Premium architecture diagram and workflow screenshots
+- Sanitized public n8n workflow export
+- External workflow execution demo
+- Documented setup, implementation notes, and current limitations
+- Model-flexible architecture without locking the workflow to a specific chat model
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/rag-based-email-customer-support-agent)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
