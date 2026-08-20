@@ -240,6 +240,47 @@ The system builds a searchable product knowledge base from a PDF, retrieves rele
 
 ---
 
+### 💬 [Facebook Comment-to-DM AI Automation with n8n](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)
+
+An AI-powered Facebook engagement automation built with **n8n, Meta Webhooks, Google Sheets, AI intent classification, and Facebook Graph API**.
+
+The workflow receives Facebook Page comments through a webhook, identifies the related campaign and resource from Google Sheets, analyzes whether the commenter is requesting the resource, and routes the interaction through True/False branches.
+
+**Key Capabilities:**
+- Facebook Page comment capture through Meta Webhooks
+- Campaign and resource lookup from Google Sheets
+- Comment data normalization
+- AI-based resource-intent classification
+- Structured True/False routing
+- Public Facebook comment reply for qualified requests
+- Private Messenger DM with the requested resource link
+- Dynamic resource delivery based on campaign data
+- Positive-path validation with real test results
+- Negative-path validation without unwanted messaging
+
+**Branch Logic:**
+- **True branch:** sends a public comment reply and delivers the resource link privately through Messenger DM
+- **False branch:** sends no public reply and no private resource DM
+
+**Tech Stack:**  
+`n8n` • `Meta Webhooks` • `Facebook Graph API` • `Google Sheets` • `AI Intent Classification` • `Messenger Automation`
+
+**Project Highlights:**
+- End-to-end Facebook Comment-to-DM automation
+- AI-powered qualification before resource delivery
+- Google Sheets-driven campaign/resource configuration
+- True and False branch workflow evidence
+- Positive and negative test screenshots
+- Public reply + private DM delivery evidence
+- Architecture diagram and workflow screenshots
+- Sanitized public n8n workflow export
+- External demo video, campaign post, Google Sheet, and project folder
+- Documented setup, implementation logic, and test results
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
