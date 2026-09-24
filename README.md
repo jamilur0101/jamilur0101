@@ -281,6 +281,44 @@ The workflow receives Facebook Page comments through a webhook, identifies the r
 
 ---
 
+### ⚡ [Lead Capture & CRM Automation with Zapier](https://github.com/jamilur0101/lead-capture-crm-automation-zapier)
+
+A 15-step no-code lead capture and CRM automation built with **Zapier, Google Forms, Google Sheets, Gmail, Slack, and Google Calendar**.
+
+The workflow captures inbound leads, cleans and enriches submitted data, identifies new vs. returning leads, logs every inquiry in a lightweight CRM, sends an automatic email response, and routes leads based on interest level.
+
+**Key Capabilities:**
+- Google Forms-based lead capture
+- Name normalization and email-domain extraction
+- New vs. returning lead detection
+- Google Sheets-based CRM logging
+- Personalized Gmail auto-reply
+- High-priority vs. standard lead routing
+- Real-time Slack alerts for high-priority leads
+- Automatic 30-minute Google Calendar follow-up scheduling
+- Standard-lead CRM status updates
+- Returning-lead inquiry preservation
+
+**Tech Stack:**  
+`Zapier` • `Google Forms` • `Formatter by Zapier` • `Google Sheets` • `Gmail` • `Paths by Zapier` • `Slack` • `Google Calendar`
+
+**Project Highlights:**
+- 15-step Zapier workflow
+- 7 connected apps/tools
+- High-priority and fallback routing paths
+- New vs. returning lead classification
+- Dynamic follow-up time calculation
+- Google Sheets CRM tracking
+- 3/3 documented end-to-end tests passed
+- Architecture diagram and workflow screenshots
+- Sanitized public Zapier workflow export
+- External workflow execution demo
+- Documented setup, implementation notes, limitations, and future improvements
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/lead-capture-crm-automation-zapier)**
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
