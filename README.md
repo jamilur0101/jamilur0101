@@ -319,6 +319,47 @@ The workflow captures inbound leads, cleans and enriches submitted data, identif
 
 ---
 
+### 👖 [Denim Wholesale – WhatsApp AI Sales Agent with n8n](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)
+
+A WhatsApp AI sales automation independently developed and tested using real requirements from a prospective denim wholesale-business client.
+
+The system uses **n8n, Meta WhatsApp Cloud API, OpenAI, Supabase, Airtable, and Cloudinary** to handle wholesale inquiries, provide product information, negotiate within fixed discount limits, calculate orders, and capture qualified sales leads.
+
+**Key Capabilities:**
+- Automated WhatsApp sales conversations
+- Wholesale buyer qualification and retail-request handling
+- 120-design product catalog delivered in batches of 20
+- Product screenshot recognition using OpenAI Vision
+- Database-backed product details and stock information
+- Two-stage bargaining with a maximum TK 20 discount per piece
+- SQL-based order calculations using agreed prices
+- Airtable CRM lead capture, scoring, and status tracking
+- Customer-detail collection and human sales handover
+- Conversation memory, duplicate detection, and fallback handling
+
+**Tech Stack:**  
+`n8n` • `Meta WhatsApp Cloud API` • `OpenAI GPT-4o-mini` • `Supabase PostgreSQL` • `Airtable` • `Cloudinary` • `REST APIs` • `Webhooks`
+
+**Project Highlights:**
+- 2 connected n8n workflows
+- 120 demo products across 4 denim categories
+- AI-powered screenshot-to-product identification
+- Database-controlled pricing and discount rules
+- Exact order calculation through SQL tools
+- Qualified lead management through Airtable
+- End-to-end testing with 8 bundles and TK 115,600 order value
+- Architecture diagram and 11 testing screenshots
+- 8 representative product catalog images
+- Sanitized public n8n workflows and database scripts
+- Documented client requirements and additional bonus features
+- Setup instructions, security notes, limitations, and future improvements
+
+🔗 **[View Project Repository →](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)**
+
+> This portfolio project was independently developed and tested from a prospective client's real requirements. It was not a commissioned, paid, or client-delivered implementation.
+
+---
+
 ## 🤝 Connect With Me
 
 * 🌐 **Portfolio:** [automation-ai-jamil.lovable.app](https://automation-ai-jamil.lovable.app/)
