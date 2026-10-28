@@ -22,25 +22,25 @@ I am currently focused on strengthening my practical skills through hands-on aut
 
 ## 🛠️ Tech Stack & Skills
 
-### Automation Platforms
+### Automation & Workflow
 
-`n8n` • `Make.com` • `Zapier`
+`n8n` • `Make.com` • `Zapier` • `JavaScript (n8n Code Node)` • `Human-in-the-Loop Workflows`
 
 ### AI & Agents
 
-`AI Agents` • `OpenAI` • `Claude` • `Gemini` • `RAG` • `MCP` • `Retell AI / Voice AI`
+`OpenAI (GPT & Vision)` • `Claude` • `Gemini` • `OpenRouter` • `AI Agents & Tool Calling` • `RAG & Vector Search` • `MCP` • `Retell AI (Voice AI)`
 
 ### APIs & Integrations
 
-`REST APIs` • `Webhooks` • `JSON` • `OAuth / API Authentication` • `Web Scraping`
+`REST APIs` • `Webhooks` • `OAuth / API Authentication` • `WhatsApp Cloud API` • `Facebook Graph API` • `Web Scraping (Apify)` • `API Testing (Bruno)`
 
-### Business Automation
+### Data & Storage
 
-`Google Sheets` • `Gmail` • `Google Drive` • `CRM Automation` • `Lead Generation` • `Customer Support Automation`
+`Supabase (PostgreSQL & Vector Store)` • `SQL` • `Airtable` • `Cloudinary`
 
-### Other Tools
+### Business Tools
 
-`Supabase` • `Airtable` • `Apify` • `ElevenLabs` • `FFmpeg`
+`Google Workspace` • `Slack` • `Microsoft Excel`
 
 ---
 
