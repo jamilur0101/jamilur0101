@@ -4,18 +4,17 @@
 
 I build practical **AI-powered automation workflows and AI agent solutions** that connect AI models, business tools, APIs, and data to reduce repetitive work and improve productivity.
 
-I am currently focused on strengthening my practical skills through hands-on automation projects while preparing to work on real-world AI automation solutions.
+I have completed **15+ hands-on projects**. Selected projects are documented below with workflows, architecture diagrams, and test evidence.
 
 ---
 
 ## 🚀 About Me
 
-* 🤖 Focused on **AI Automation, AI Agents, and Business Process Automation**
-* ⚙️ Building workflows with **n8n, Make.com, and Zapier**
-* 🧠 Working with **OpenAI, Claude, Gemini, RAG, and MCP**
-* 🔗 Integrating applications using **REST APIs, Webhooks, JSON, and OAuth**
-* 📚 Continuously learning, building, testing, and improving practical automation solutions
-* 🌍 Open to **remote, hybrid, local, and international opportunities**
+* ⚙️ Building with **n8n, Make.com, and Zapier**
+* 🧠 Working with **OpenAI, Claude, Gemini, RAG, MCP, and Retell AI** to build AI agents for **WhatsApp, voice, and email**
+* 🔗 Integrating apps with **REST APIs, Webhooks, and OAuth**
+* 📚 Learned through structured courses and hands-on building, testing, and documenting
+* 🌍 Open to **remote, hybrid, freelance, and project-based** work, local and international
 * 📍 Based in **Dhaka, Bangladesh**
 
 ---
@@ -48,315 +47,105 @@ I am currently focused on strengthening my practical skills through hands-on aut
 
 Currently, I am focused on:
 
-* Building end-to-end AI automation workflows
-* Developing practical AI agent solutions
-* Connecting AI models with external tools and business systems
-* Improving API, webhook, RAG, and MCP-based integrations
-* Documenting and publishing my automation projects on GitHub
+* Building end-to-end AI automation workflows for real business use cases
+* Developing AI agents for WhatsApp, voice, and email customer conversations
+* Connecting AI models with business tools, databases, and APIs
+* Improving RAG and MCP-based integrations
+* Documenting and publishing my projects on GitHub
 
 ---
 
 ## 📂 Featured Projects
 
+### 👖 [Denim Wholesale – WhatsApp AI Sales Agent with n8n](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)
+
+A WhatsApp AI sales agent built from a prospective denim wholesale client's real requirements. It answers wholesale inquiries, sends a 120-design catalog in batches, recognizes products from buyer screenshots, bargains within database-controlled limits, calculates exact orders with SQL, and logs qualified leads in Airtable.
+
+**Tech:** `n8n` • `Meta WhatsApp Cloud API` • `OpenAI GPT-4o-mini (Vision)` • `Supabase PostgreSQL` • `Airtable` • `Cloudinary`  
+**Highlights:** 2 connected workflows • Screenshot-to-product recognition • End-to-end demo test: 8 bundles, TK 115,600 (demo data)
+
+> Independent portfolio project — not commissioned, paid, or client-delivered.
+
+🔗 **[View Repository →](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)**
+
+---
+
 ### 🤖 [AI Receptionist with Retell AI, MCP & n8n](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)
 
-An AI voice receptionist prototype developed as a hands-on automation project using **Retell AI, MCP, and n8n**.
+An AI voice receptionist prototype that answers course questions, checks class schedules, captures leads, books consultations in Google Calendar, sends email confirmations, escalates to a human, and logs every call.
 
-The system connects a voice agent with multiple automation tools to handle course-related queries and business workflows.
+**Tech:** `Retell AI` • `MCP` • `n8n` • `Google Sheets` • `Google Calendar` • `Gmail` • `Webhooks`  
+**Highlights:** 9 n8n workflows • 7 MCP tools for the voice agent • Tested with Retell simulation and Bruno
 
-**Key Capabilities:**
-- Course search and class schedule checking
-- Lead capture
-- Consultation booking with Google Calendar
-- Email confirmation
-- FAQ knowledge-base support
-- Human escalation request handling
-- Conversation logging
+> Learning project based on an Ostad Academy scenario — not an official Ostad Academy system.
 
-**Tech Stack:**  
-`Retell AI` • `MCP` • `n8n` • `Google Sheets` • `Google Calendar` • `Gmail` • `REST APIs` • `Webhooks`
-
-**Project Highlights:**
-- 9 documented n8n workflows
-- Multiple MCP-connected automation tools
-- Voice AI + workflow automation integration
-- Architecture diagram and workflow screenshots
-- Sanitized public workflow files
-- Documented limitations and future improvements
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)**
-
-> This is a learning and portfolio project developed as part of an AI Automation assignment and is not an official Ostad Academy production system.
-
----
-
-### 📰 [AI News Research Automation with n8n](https://github.com/jamilur0101/ai-news-research-automation-n8n)
-
-An AI-powered news research automation developed as a hands-on project using **n8n, GNews API, OpenRouter, and Google Sheets**.
-
-The workflow accepts a topic and article count through a webhook, researches and analyzes current news articles with an LLM, stores structured results, and returns the Top 3 stories ranked for LinkedIn relevance.
-
-**Key Capabilities:**
-- Topic-based news collection through GNews API
-- Per-article AI summarization and research
-- Practical key takeaway extraction
-- AI news category classification
-- LinkedIn Worthiness Score from 1–10
-- Structured AI output validation
-- Google Sheets research storage
-- Top 3 article ranking by score and recency
-- JSON API response through webhook
-
-**Tech Stack:**  
-`n8n` • `GNews API` • `OpenRouter` • `Google Sheets` • `Webhooks` • `JavaScript` • `Bruno`
-
-**Project Highlights:**
-- End-to-end webhook-driven research workflow
-- Configurable LLM through OpenRouter
-- Structured Output Parser for consistent AI responses
-- Custom JavaScript ranking logic
-- Architecture diagram and workflow screenshots
-- Sanitized public n8n workflow
-- External workflow execution demo
-- Documented setup, limitations, and future improvements
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/ai-news-research-automation-n8n)**
-
----
-
-### 🎓 [Automated Student Assignment Collection System in Make.com](https://github.com/jamilur0101/automated-student-assignment-collection-make)
-
-An end-to-end assignment collection and validation automation built with **Make.com, Google Forms, Google Sheets, Google Drive, Google Docs, and Gmail**.
-
-The system processes student assignment submissions, cleans and validates submission data, detects duplicates, routes valid and invalid submissions, organizes records and folders, sends automated notifications, and updates final submission status in Google Sheets.
-
-**Key Capabilities:**
-- Google Forms-based assignment submission intake
-- Google Sheets-triggered Make.com automation
-- Data cleaning and normalization
-- Duplicate submission detection
-- Valid, invalid, and duplicate submission routing
-- Student-wise Google Drive folder creation
-- Automatic Google Docs submission summary generation
-- Student confirmation emails
-- Instructor notification emails
-- Submission status tracking in Google Sheets
-- On-time / late status tracking from submission data
-
-**Tech Stack:**  
-`Make.com` • `Google Forms` • `Google Sheets` • `Google Drive` • `Google Docs` • `Gmail`
-
-**Project Highlights:**
-- End-to-end automated assignment processing workflow
-- Three-route validation and submission handling
-- Automated folder and document creation
-- Student and instructor email notifications
-- Centralized submission tracking in Google Sheets
-- Architecture diagram and implementation documentation
-- Sanitized public Make.com blueprint
-- External workflow execution demo
-- Documented test results and current implementation limitations
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/automated-student-assignment-collection-make)**
-
----
-
-### 🏢 [Dubai Real Estate Lead Generation & MCP AI Assistant](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)
-
-An end-to-end AI-powered real estate automation system built with **n8n, Apify, Airtable, OpenAI, and MCP**.
-
-The system automatically collects Dubai rental property listings from PropertyFinder through Apify, cleans and structures the scraped data with AI, stores the listings in Airtable, exposes the database through an MCP Server, and allows an AI assistant to answer natural-language questions about available properties.
-
-**Key Capabilities:**
-- Scheduled Dubai real estate listing collection
-- PropertyFinder scraping through Apify
-- AI-powered property data cleaning and structuring
-- Structured Output Parser validation
-- Airtable listing storage and upsert by Listing URL
-- MCP Server with 7 specialized property tools
-- Budget-based property search
-- Location-based listing search
-- Latest listing retrieval
-- Cheapest property lookup
-- Listing count queries
-- Full property list retrieval
-- Natural-language property queries through an AI Assistant
-
-**Tech Stack:**  
-`n8n` • `Apify` • `Airtable` • `OpenAI` • `MCP` • `HTTP Request`
-
-**Project Highlights:**
-- Three connected n8n workflows
-- Automated scraping and structured property storage
-- Seven Airtable-backed MCP tools
-- AI Assistant connected through MCP Client
-- Natural-language budget and location filtering
-- Real chat-query examples with actual listing results
-- Architecture diagram and workflow screenshots
-- Sanitized public n8n workflow exports
-- External demo video and Airtable database
-- Documented setup, implementation notes, limitations, and cost estimation
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)**
-
----
-
-### 📧 [RAG-Based Email Customer Support Agent](https://github.com/jamilur0101/rag-based-email-customer-support-agent)
-
-An AI-powered email customer support automation built with **n8n, Gmail, Supabase Vector Store, Google Drive, and RAG**.
-
-The system builds a searchable product knowledge base from a PDF, retrieves relevant information through a Supabase Vector Store, drafts context-aware customer support replies with an AI Agent, sends the generated reply for human approval, and delivers the final response to the customer only after approval.
-
-**Key Capabilities:**
-- Product knowledge-base ingestion from Google Drive
-- Document loading and recursive text chunking
-- Embedding generation for RAG
-- Supabase Vector Store knowledge storage
-- Gmail-based incoming customer email detection
-- Full email message retrieval
-- AI Agent response generation using retrieved knowledge
-- Human-in-the-loop approval email
-- Workflow pause and resume using Wait
-- Approval validation through an If node
-- Final customer email delivery after approval
-- False branch intentionally left without a rejection-email action
-
-**Tech Stack:**  
-`n8n` • `Gmail` • `Google Drive` • `Supabase Vector Store` • `RAG` • `AI Agent` • `Embeddings`
-
-**Project Highlights:**
-- Two-part RAG + customer support automation architecture
-- PDF-based product knowledge ingestion
-- Vector search through Supabase
-- Retrieval-grounded AI email drafting
-- Human approval before customer delivery
-- Premium architecture diagram and workflow screenshots
-- Sanitized public n8n workflow export
-- External workflow execution demo
-- Documented setup, implementation notes, and current limitations
-- Model-flexible architecture without locking the workflow to a specific chat model
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/rag-based-email-customer-support-agent)**
-
----
-
-### 💬 [Facebook Comment-to-DM AI Automation with n8n](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)
-
-An AI-powered Facebook engagement automation built with **n8n, Meta Webhooks, Google Sheets, AI intent classification, and Facebook Graph API**.
-
-The workflow receives Facebook Page comments through a webhook, identifies the related campaign and resource from Google Sheets, analyzes whether the commenter is requesting the resource, and routes the interaction through True/False branches.
-
-**Key Capabilities:**
-- Facebook Page comment capture through Meta Webhooks
-- Campaign and resource lookup from Google Sheets
-- Comment data normalization
-- AI-based resource-intent classification
-- Structured True/False routing
-- Public Facebook comment reply for qualified requests
-- Private Messenger DM with the requested resource link
-- Dynamic resource delivery based on campaign data
-- Positive-path validation with real test results
-- Negative-path validation without unwanted messaging
-
-**Branch Logic:**
-- **True branch:** sends a public comment reply and delivers the resource link privately through Messenger DM
-- **False branch:** sends no public reply and no private resource DM
-
-**Tech Stack:**  
-`n8n` • `Meta Webhooks` • `Facebook Graph API` • `Google Sheets` • `AI Intent Classification` • `Messenger Automation`
-
-**Project Highlights:**
-- End-to-end Facebook Comment-to-DM automation
-- AI-powered qualification before resource delivery
-- Google Sheets-driven campaign/resource configuration
-- True and False branch workflow evidence
-- Positive and negative test screenshots
-- Public reply + private DM delivery evidence
-- Architecture diagram and workflow screenshots
-- Sanitized public n8n workflow export
-- External demo video, campaign post, Google Sheet, and project folder
-- Documented setup, implementation logic, and test results
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)**
+🔗 **[View Repository →](https://github.com/jamilur0101/ai-receptionist-retell-mcp-n8n)**
 
 ---
 
 ### ⚡ [Lead Capture & CRM Automation with Zapier](https://github.com/jamilur0101/lead-capture-crm-automation-zapier)
 
-A 15-step no-code lead capture and CRM automation built with **Zapier, Google Forms, Google Sheets, Gmail, Slack, and Google Calendar**.
+A no-code lead capture and CRM workflow that cleans form data, detects new vs. returning leads, logs every inquiry in Google Sheets, sends a personalized auto-reply, and routes high-priority leads to Slack and a Google Calendar follow-up.
 
-The workflow captures inbound leads, cleans and enriches submitted data, identifies new vs. returning leads, logs every inquiry in a lightweight CRM, sends an automatic email response, and routes leads based on interest level.
+**Tech:** `Zapier` • `Google Forms` • `Formatter by Zapier` • `Google Sheets` • `Gmail` • `Paths by Zapier` • `Slack` • `Google Calendar`  
+**Highlights:** 15-step Zap, 7 apps, 0 lines of code • Priority and fallback routing • 3/3 end-to-end tests passed
 
-**Key Capabilities:**
-- Google Forms-based lead capture
-- Name normalization and email-domain extraction
-- New vs. returning lead detection
-- Google Sheets-based CRM logging
-- Personalized Gmail auto-reply
-- High-priority vs. standard lead routing
-- Real-time Slack alerts for high-priority leads
-- Automatic 30-minute Google Calendar follow-up scheduling
-- Standard-lead CRM status updates
-- Returning-lead inquiry preservation
-
-**Tech Stack:**  
-`Zapier` • `Google Forms` • `Formatter by Zapier` • `Google Sheets` • `Gmail` • `Paths by Zapier` • `Slack` • `Google Calendar`
-
-**Project Highlights:**
-- 15-step Zapier workflow
-- 7 connected apps/tools
-- High-priority and fallback routing paths
-- New vs. returning lead classification
-- Dynamic follow-up time calculation
-- Google Sheets CRM tracking
-- 3/3 documented end-to-end tests passed
-- Architecture diagram and workflow screenshots
-- Sanitized public Zapier workflow export
-- External workflow execution demo
-- Documented setup, implementation notes, limitations, and future improvements
-
-🔗 **[View Project Repository →](https://github.com/jamilur0101/lead-capture-crm-automation-zapier)**
+🔗 **[View Repository →](https://github.com/jamilur0101/lead-capture-crm-automation-zapier)**
 
 ---
 
-### 👖 [Denim Wholesale – WhatsApp AI Sales Agent with n8n](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)
+### 💬 [Facebook Comment-to-DM AI Automation with n8n](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)
 
-A WhatsApp AI sales automation independently developed and tested using real requirements from a prospective denim wholesale-business client.
+Receives Facebook Page comments through Meta Webhooks, uses AI to check whether the commenter really wants the campaign resource, and then sends it by private Messenger DM with a short public reply. Unrelated comments get no reply.
 
-The system uses **n8n, Meta WhatsApp Cloud API, OpenAI, Supabase, Airtable, and Cloudinary** to handle wholesale inquiries, provide product information, negotiate within fixed discount limits, calculate orders, and capture qualified sales leads.
+**Tech:** `n8n` • `Meta Webhooks` • `Facebook Graph API` • `Google Sheets` • `AI Intent Classification` • `JavaScript` • `HTTP Request`  
+**Highlights:** Webhook verification and event filtering • Structured AI output for reliable routing • Positive and negative tests documented
 
-**Key Capabilities:**
-- Automated WhatsApp sales conversations
-- Wholesale buyer qualification and retail-request handling
-- 120-design product catalog delivered in batches of 20
-- Product screenshot recognition using OpenAI Vision
-- Database-backed product details and stock information
-- Two-stage bargaining with a maximum TK 20 discount per piece
-- SQL-based order calculations using agreed prices
-- Airtable CRM lead capture, scoring, and status tracking
-- Customer-detail collection and human sales handover
-- Conversation memory, duplicate detection, and fallback handling
+🔗 **[View Repository →](https://github.com/jamilur0101/facebook-comment-to-dm-ai-automation-n8n)**
 
-**Tech Stack:**  
-`n8n` • `Meta WhatsApp Cloud API` • `OpenAI GPT-4o-mini` • `Supabase PostgreSQL` • `Airtable` • `Cloudinary` • `REST APIs` • `Webhooks`
+---
 
-**Project Highlights:**
-- 2 connected n8n workflows
-- 120 demo products across 4 denim categories
-- AI-powered screenshot-to-product identification
-- Database-controlled pricing and discount rules
-- Exact order calculation through SQL tools
-- Qualified lead management through Airtable
-- End-to-end testing with 8 bundles and TK 115,600 order value
-- Architecture diagram and 11 testing screenshots
-- 8 representative product catalog images
-- Sanitized public n8n workflows and database scripts
-- Documented client requirements and additional bonus features
-- Setup instructions, security notes, limitations, and future improvements
+### 📰 [AI News Research Automation with n8n](https://github.com/jamilur0101/ai-news-research-automation-n8n)
 
-🔗 **[View Project Repository →](https://github.com/jamilur0101/denim-whatsapp-ai-agent-n8n)**
+A webhook-driven research workflow that fetches news on any topic, summarizes and scores each article with an LLM, saves the results to Google Sheets, and returns the top 3 stories as JSON.
 
-> This portfolio project was independently developed and tested from a prospective client's real requirements. It was not a commissioned, paid, or client-delivered implementation.
+**Tech:** `n8n` • `GNews API` • `OpenRouter` • `Google Sheets` • `Webhooks` • `JavaScript`  
+**Highlights:** Structured Output Parser • Custom JavaScript ranking • Tested with Bruno
+
+🔗 **[View Repository →](https://github.com/jamilur0101/ai-news-research-automation-n8n)**
+
+---
+
+### 🏢 [Dubai Real Estate Lead Generation & MCP AI Assistant](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)
+
+Scrapes Dubai rental listings with Apify, cleans them with AI, stores them in Airtable, and exposes the data through an MCP server so an AI assistant can answer questions like budget, location, latest, and cheapest listings.
+
+**Tech:** `n8n` • `Apify` • `Airtable` • `OpenAI GPT-4.1 Mini` • `MCP` • `HTTP Request`  
+**Highlights:** 3 connected workflows • 7 MCP tools • Upsert by listing URL to avoid duplicates
+
+🔗 **[View Repository →](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)**
+
+---
+
+### 📧 [RAG-Based Email Customer Support Agent](https://github.com/jamilur0101/rag-based-email-customer-support-agent)
+
+Builds a product knowledge base from a PDF in Supabase Vector Store, drafts replies to customer emails with an AI agent using that knowledge, and sends each reply only after a human approves it.
+
+**Tech:** `n8n` • `Gmail` • `Google Drive` • `AI Agent` • `Supabase Vector Store` • `RAG` • `Embeddings`  
+**Highlights:** PDF chunking and embeddings • Retrieval-grounded replies • Human-in-the-loop approval
+
+🔗 **[View Repository →](https://github.com/jamilur0101/rag-based-email-customer-support-agent)**
+
+---
+
+### 🎓 [Automated Student Assignment Collection System in Make.com](https://github.com/jamilur0101/automated-student-assignment-collection-make)
+
+Processes Google Form assignment submissions: cleans the data, detects duplicates, routes valid, invalid, and duplicate cases, creates a Drive folder and Docs summary per student, emails students and the instructor, and updates the status sheet.
+
+**Tech:** `Make.com` • `Google Forms` • `Google Sheets` • `Google Drive` • `Google Docs` • `Gmail`  
+**Highlights:** Three-route validation • Automatic folders and documents • 5 test cases documented
+
+🔗 **[View Repository →](https://github.com/jamilur0101/automated-student-assignment-collection-make)**
 
 ---
 
