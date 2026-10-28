@@ -61,7 +61,7 @@ Currently, I am focused on:
 
 A WhatsApp AI sales agent built from a prospective denim wholesale client's real requirements. It answers wholesale inquiries, sends a 120-design catalog in batches, recognizes products from buyer screenshots, bargains within database-controlled limits, calculates exact orders with SQL, and logs qualified leads in Airtable.
 
-**Tech:** `n8n` • `Meta WhatsApp Cloud API` • `OpenAI GPT-4o-mini (Vision)` • `Supabase PostgreSQL` • `Airtable` • `Cloudinary`  
+**Tech:** `n8n` • `Meta WhatsApp Cloud API` • `OpenAI (Vision)` • `Supabase PostgreSQL` • `Airtable` • `Cloudinary`  
 **Highlights:** 2 connected workflows • Screenshot-to-product recognition • End-to-end demo test: 8 bundles, TK 115,600 (demo data)
 
 > Independent portfolio project — not commissioned, paid, or client-delivered.
@@ -120,7 +120,7 @@ A webhook-driven research workflow that fetches news on any topic, summarizes an
 
 Scrapes Dubai rental listings with Apify, cleans them with AI, stores them in Airtable, and exposes the data through an MCP server so an AI assistant can answer questions like budget, location, latest, and cheapest listings.
 
-**Tech:** `n8n` • `Apify` • `Airtable` • `OpenAI GPT-4.1 Mini` • `MCP` • `HTTP Request`  
+**Tech:** `n8n` • `Apify` • `Airtable` • `OpenAI` • `MCP` • `HTTP Request`  
 **Highlights:** 3 connected workflows • 7 MCP tools • Upsert by listing URL to avoid duplicates
 
 🔗 **[View Repository →](https://github.com/jamilur0101/dubai-real-estate-lead-generation-mcp-assistant)**
