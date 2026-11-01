@@ -10,6 +10,7 @@ I have completed **15+ hands-on projects**. Selected projects are documented bel
 
 ## 🚀 About Me
 
+* 💼 Currently an **AI Automation Intern at Big Brains**, working with n8n
 * ⚙️ Building with **n8n, Make.com, and Zapier**
 * 🧠 Working with **OpenAI, Claude, Gemini, RAG, MCP, and Retell AI** to build AI agents for **WhatsApp, voice, and email**
 * 🔗 Integrating apps with **REST APIs, Webhooks, and OAuth**
